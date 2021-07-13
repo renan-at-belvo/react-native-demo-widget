@@ -1,6 +1,6 @@
 # Connect Widget on React Native demo
 
-Unnofficial demo displaying how to run Belvo Connect Widget (webview version) for React Native. 
+Unofficial demo displaying how to run Belvo Connect Widget (webview version) for React Native. 
 
 ## How to run
 
