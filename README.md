@@ -25,7 +25,11 @@ Unnofficial demo displaying how to run Belvo Connect Widget (webview version) fo
 ```
 
 **payload (object)**: you can send the same parameters from [Widget's Startup configuration](https://developers.belvo.com/docs/widget-startup-configuration) page as object (instead send them as queryString) 🤟
+
 **onError (callback)**: will receive an error event as object [based on this params](https://developers.belvo.com/docs/widget-for-webviews#success-event)
+
 **onExit (callback)**: will receive an error event as object [based on this params](https://developers.belvo.com/docs/widget-for-webviews#exit-event)
+
 **onSuccess (callback)**: will receive an error event as object [based on this params](https://developers.belvo.com/docs/widget-for-webviews#error-event)
+
 **token (string)**: access token generated from `{environment}.belvo.com/api/token/` as linked above
