@@ -23,7 +23,7 @@ export default function BelvoWidget({
 
   useEffect(() => {
     setBelvoURI(belvoWidgetURL);
-  });
+  }, [belvoWidgetURL]);
 
   const handleBelvoEvent = (event) => {
     let webviewEvent = new URL(event.url);
